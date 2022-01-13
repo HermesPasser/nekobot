@@ -7,7 +7,18 @@ The default source is *random.cat* and it's triggered by ``'cat`` command. You c
 
 ``'source`` get the github page of this bot. 
 
-# How add a new source
+## Running
+
+First, you will have to install *python 3*, any subversion will do, after install all the python modules listed on [requirements.txt](requirements.txt) with :
+
+```python
+pip install -r requirements.txt
+```
+
+then set a environment variable ``DISCORD_TOKEN`` with the token you can get from your bot's page at Discord website and run *main.py*.
+
+
+## How add a new source
 
 First you need to append *sources.json* with the command that will trigger the catbot and the module that will be called when someone write the trigger on Discord.
 
